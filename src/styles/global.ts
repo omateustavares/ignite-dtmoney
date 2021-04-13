@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 :root {
@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 
-html{ 
+html{
     @media (max-width: 1080px){
         font-size: 93.75%;
     }
@@ -42,7 +42,7 @@ body, button, textarea, input {
 h1, h2, h3, h4, h5, h6, strong{
     font-weight: 600;
 }
-button { 
+button {
     cursor: pointer;
 }
 
